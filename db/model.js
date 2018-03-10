@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/animals');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -29,5 +28,10 @@ function insertOne (story, callback) {
   AnimalModel.create(story, callback);
 }
 
+const insertMany = (image, callback) => {
+  AnimalModel.insertMany(image, callback);
+}
+
 exports.findAll = findAll;
 exports.insertOne = insertOne;
+exports.insertMany = insertMany;
