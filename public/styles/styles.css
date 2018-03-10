@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+body {
+  background-color: #efefef;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+/***********************
+***       LOGO       ***
+***********************/
+
+.logo {
+  color: #5F9EA0;
+}
+
+.lobster {
+  font-family: "lobster", cursive;
+}
+
+/***********************
+***       HERO       ***
+***********************/
+
+.jumbotron {
+  margin-top: 5%;
+  background: url('../img/pet-style.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position: center center;
+  height: 500px;
+  color: #fff;
+  padding: 15%;
+  border-radius: 0px;
+}
+
+/***********************
+***       GRID       ***
+***********************/
+
+.animal-bio {
+  border-radius: 35px;
+  margin: 2%;
+  background: #fff; 
+}
+
+.animal-name {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.animal-bio img {
+  width: 100%;
+  border-radius: 22px 22px 0px 0px;
+  margin-bottom: 25px;
+}
+
+.bio-section {
+  text-align: center;
+}
+
+.bio-section span {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.fa-birthday-cake, .fa-arrows-alt-v, .fa-balance-scale:hover {
+  transition: all 1s;
+}
+
+.fa-birthday-cake:hover, .fa-arrows-alt-v:hover, .fa-balance-scale:hover  {
+  color: #f90;
+  font-size: 1.5em;
+  transition: all 1s;
+}
+
+/***********************
+***       MODAL      ***
+***********************/
+
+.modal img {
+  width: 80%;
+  margin: 0 auto 2% auto;
+  display: block;
+}
+
+.modal-title {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5F9EA0;
+    border-color: #5F9EA0;
+}
+
+/***********************
+***      FOOTER      ***
+***********************/
+
+.footer {
+  background-color: #5F9EA0;
+  color: #fff;
+  padding: 3% 0px;
+}
+
+/***********************
+***      MOBILE      ***
+***********************/
+
+@media screen and (min-width: 768px) {
+  .navbar-nav>li>a {
+      padding-top: 25px;
+      padding-bottom: 25px;
+  }
+}
+
+/***********************
+***      RESETS      ***
+***********************/
+
+.col-4, .col-lg-3, .col-md-4, .col-sm-6 {
+  padding: 0px;
+}
