@@ -70,10 +70,13 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 0.8em;
   font-weight: 400;
+  color: #bfbfbf;
 }
 
-.fa-birthday-cake, .fa-arrows-alt-v, .fa-balance-scale:hover {
+
+.fa-birthday-cake, .fa-arrows-alt-v, .fa-balance-scale {
   transition: all 1s;
+  color: #777;
 }
 
 .fa-birthday-cake:hover, .fa-arrows-alt-v:hover, .fa-balance-scale:hover  {
@@ -102,6 +105,14 @@ body {
     color: #fff;
     background-color: #5F9EA0;
     border-color: #5F9EA0;
+    transition: all 1s;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #416C6D;
+    border-color: #416C6D;
+    transition: all 1s;
 }
 
 /***********************
@@ -112,6 +123,7 @@ body {
   background-color: #5F9EA0;
   color: #fff;
   padding: 3% 0px;
+  margin-top: 5%;
 }
 
 /***********************
