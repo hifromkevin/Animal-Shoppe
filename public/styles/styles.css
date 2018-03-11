@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
+
 body {
   background-color: #efefef;
 }
@@ -72,7 +73,6 @@ body {
   font-weight: 400;
   color: #bfbfbf;
 }
-
 
 .fa-birthday-cake, .fa-arrows-alt-v, .fa-balance-scale {
   transition: all 1s;

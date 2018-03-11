@@ -22,7 +22,6 @@ export default class Animals extends React.Component {
   render () {
     return (
     <div>
-
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
     <h2 className="logo lobster"><i className="fas fa-paw"></i>  Animal Shoppe&nbsp;</h2>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,6 +65,17 @@ export default class Animals extends React.Component {
             return <Bio animal={animal} key={index} />
           })
           }
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="offset-sm-8 col-sm-4">
+              <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i> 867-5309</p>
+              <p><i class="fas fa-map-pin"></i> 123 Fake Street, San Francisco</p>
+            </div>
+          </div>
         </div>
       </div>
 
