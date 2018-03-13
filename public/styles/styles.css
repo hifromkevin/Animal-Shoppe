@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
 
 body {
   background-color: #efefef;
@@ -21,6 +21,7 @@ body {
 
 .lobster {
   font-family: "lobster", cursive;
+  font-weight: 100;
 }
 
 /***********************
