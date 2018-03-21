@@ -68,12 +68,12 @@ export default class Animals extends React.Component {
         </div>
       </div>
 
-      <div class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="offset-sm-8 col-sm-4">
-              <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i> 867-5309</p>
-              <p><i class="fas fa-map-pin"></i> 123 Fake Street, San Francisco</p>
+      <div className="footer">
+        <div className="container">
+          <div className="row">
+            <div className="offset-sm-8 col-sm-4">
+              <p><i className="fa fa-phone fa-2x" aria-hidden="true"></i> 867-5309</p>
+              <p><i className="fas fa-map-pin"></i> 123 Fake Street, San Francisco</p>
             </div>
           </div>
         </div>
