@@ -1,31 +1,10 @@
-# Photo Gallery
+# Animal Shoppe
 
-A clickable photo which produces a modal containing a photo carousel. 
-
-## Related Projects
-
-  - https://github.com/MiNKS-HR/ilias-similar-listings-service
-  - https://github.com/MiNKS-HR/details-service
-  - https://github.com/MiNKS-HR/upcoming-availability-service
-  - https://github.com/MiNKS-HR/reviews-service
-
-## Table of Contents
-
-1. [Usage](#Usage)
-2. [Requirements](#requirements)
-3. [Development](#development)
-4. [Run Scripts](#scripts)
-
-## Usage
-
-> 
+A React website used to demonstrate how Bootstrap may be used to create a responsive website. 
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
 - Node 6.13.0
-- etc
 
 ## Development
 
@@ -34,8 +13,7 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
-npm install
+npm install 
 ```
 
 ## Scripts
@@ -47,6 +25,5 @@ From within the root directory:
 ```sh
 npm run build
 npm start
-npm run test
 ```
 
