@@ -54,7 +54,7 @@ export default class Animals extends React.Component {
 
       <div className="jumbotron">
         <div className="container">
-          <h2 className="lobster">Welcome to the Animal Shoppe</h2>
+          <h2 className="lobster title">Welcome to the Animal Shoppe</h2>
           <p>Easily the greatest adoption agency ever with only the finest puppies and kitties.</p>
         </div>
       </div>
